@@ -1,0 +1,38 @@
+header {
+    border-color: var(--mid-blue) !important;
+    overflow: hidden;
+}
+
+svg {
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+}
+
+svg{
+    fill: var(--dark-blue);
+}
+
+a {
+    color: var(--dark-blue);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+a:hover {
+    color: var(--light-blue);
+}

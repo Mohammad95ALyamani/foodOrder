@@ -1,6 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
+:root{
+    --dark-blue: #02333c;
+    --mid-blue: #08535d;
+    --light-blue: #99bcc4;
+}
+
 *{
     font-family: 'Cairo', sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin: 0;
+    padding: 0; 
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--dark-blue);
+}
+
+.text-light-blue{
+    color: var(--light-blue) !important;
+}
+.text-mid-blue{
+    color: var(--mid-blue) !important;
+}
+.text-dark-blue{
+    color: var(--dark-blue) !important;
+}
+
+.bg-dark-blue{
+    background-color: var(--dark-blue) !important;
+}
+.bg-mid-blue{
+    background-color: var(--mid-blue) !important;
+}
+.bg-light-blue{
+    background-color: var(--light-blue) !important;
+}
+
+.form-control:focus{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+::selection{
+    background-color: #99bcc4;
+    color: white;
+}
+
+::placeholder{
+    color: #99bcc4;
+    font-size: 14px;
 }

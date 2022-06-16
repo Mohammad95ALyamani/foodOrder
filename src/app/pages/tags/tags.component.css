@@ -1,0 +1,19 @@
+div{
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+div a{
+    background-color: var(--mid-blue);
+    padding: .3rem 1rem;
+    margin: .2rem .15rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
